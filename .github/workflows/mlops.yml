@@ -1,0 +1,149 @@
+name: MLOps candidate pipeline
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * 1"
+  push:
+    paths:
+      - "backend/mlops/**"
+      - "backend/models/**"
+      - "backend/features/**"
+      - "backend/backtest/**"
+      - "backend/data/history.py"
+      - "backend/cli.py"
+      - "configs/default.yaml"
+      - "pyproject.toml"
+      - ".github/workflows/mlops.yml"
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: mlops-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  train-and-evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Restore latest successful MLOps state
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          previous_run="$(gh run list --workflow mlops.yml --branch "$GITHUB_REF_NAME" --status completed --limit 100 --json databaseId,conclusion --jq '[.[] | select(.conclusion == "success")][0].databaseId // empty')"
+          if [[ -z "$previous_run" ]]; then
+            echo "No earlier successful MLOps run; starting with an empty model registry."
+            exit 0
+          fi
+          if gh run download "$previous_run" --name mlops-state --dir .; then
+            echo "Restored state from MLOps run $previous_run."
+          else
+            echo "::warning::The previous run has no downloadable state artifact; continuing with an empty registry."
+          fi
+
+      - name: Capture previous run ID
+        id: previous-state
+        shell: bash
+        run: |
+          previous_run=""
+          if [[ -f artifacts/mlops/latest-run.json ]]; then
+            previous_run="$(python -c 'import json; print(json.load(open("artifacts/mlops/latest-run.json"))["run_id"])')"
+          fi
+          echo "run_id=$previous_run" >> "$GITHUB_OUTPUT"
+
+      - name: Install pipeline dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e .
+          python -m pip install "lightgbm>=4.5,<5" "mlflow-skinny>=2.18,<4"
+
+      - name: Download current Binance candles
+        run: >-
+          python -m backend.cli --config configs/default.yaml download --timeframes 1h
+
+      - name: Run MLOps pipeline
+        run: >-
+          python -m backend.cli --config configs/default.yaml mlops run
+
+      - name: Write run summary
+        if: always()
+        env:
+          PREVIOUS_MLOPS_RUN_ID: ${{ steps.previous-state.outputs.run_id }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          summary = []
+          pointer_path = Path("artifacts/mlops/latest-run.json")
+          if not pointer_path.is_file():
+              summary.extend(["## MLOps run", "", "No pipeline run manifest was created."])
+          else:
+              run_id = json.loads(pointer_path.read_text(encoding="utf-8"))["run_id"]
+              previous_run = os.environ.get("PREVIOUS_MLOPS_RUN_ID", "")
+              if run_id == previous_run:
+                  summary.extend([
+                      "## MLOps run",
+                      "",
+                      f"No new run record was created. Latest saved run: `{run_id}`.",
+                  ])
+              else:
+                  manifest_path = Path("artifacts/mlops/runs") / run_id / "pipeline.json"
+                  manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+                  candidate = manifest.get("candidate") or {}
+                  promotion = manifest.get("promotion") or {}
+                  summary.extend([
+                      "## MLOps run",
+                      "",
+                      f"- Run: `{run_id}`",
+                      f"- Status: `{manifest.get('status', 'unknown')}`",
+                      f"- Candidate: `{candidate.get('version', 'not created')}`",
+                      f"- Promoted: `{promotion.get('approved', False)}`",
+                  ])
+                  report_path = Path(candidate.get("training_report", ""))
+                  if not report_path.is_file() and candidate.get("version"):
+                      report_path = (Path("artifacts/mlops/runs") / run_id / "training_artifacts"
+                                     / candidate["version"] / "report.json")
+                  if report_path.is_file():
+                      report = json.loads(report_path.read_text(encoding="utf-8"))
+                      metrics = (report.get("candidate") or {}).get("metrics") or {}
+                      summary.extend([
+                          f"- Holdout trades: `{metrics.get('trade_count', 'n/a')}`",
+                          f"- Holdout net return: `{metrics.get('total_return', 'n/a')}`",
+                      ])
+                  failures = promotion.get("failures") or manifest.get("error")
+                  if failures:
+                      summary.extend(["", "Promotion gate results:"])
+                      if isinstance(failures, list):
+                          summary.extend(f"- {failure}" for failure in failures)
+                      else:
+                          summary.append(f"- {failures}")
+          Path(os.environ["GITHUB_STEP_SUMMARY"]).write_text("\n".join(summary) + "\n", encoding="utf-8")
+          PY
+
+      - name: Save MLOps state and reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mlops-state
+          path: |
+            artifacts/
+            mlruns/
+          if-no-files-found: warn
+          retention-days: 90

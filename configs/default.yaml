@@ -1,0 +1,42 @@
+symbol: SOLUSDT
+timeframe: 1h
+market: spot
+mode: signals
+history_start: '2020-01-01T00:00:00Z'
+data_dir: data
+artifact_dir: artifacts
+db_url: sqlite:///data/supertrader.sqlite
+api_base: https://data-api.binance.vision
+ws_base: wss://stream.binance.com:9443/ws
+poll_seconds: 30
+news_poll_seconds: 300
+retrain_days: 7
+seed: 42
+label_horizon: 4
+fee_bps: 10
+slippage_bps: 5
+spread_bps: 2
+min_confidence: 0.58
+max_risk_per_trade: 0.005
+max_exposure: 0.20
+target_annual_vol: 0.15
+max_daily_loss: 0.02
+max_drawdown: 0.10
+max_spread_bps: 15
+max_bar_atr_fraction: 0.08
+stale_seconds: 120
+paper_equity: 10000
+min_promotion_trades: 30
+drift_psi_threshold: 0.25
+news_enabled: false
+news_model: ProsusAI/finbert
+news_revision: main
+derivatives_enabled: false
+optional_macro: false
+optional_onchain: false
+rss_urls:
+  - https://www.coindesk.com/arc/outboundfeeds/rss/
+cors_origins:
+  - http://localhost:3000
+  - http://localhost:3001
+

@@ -1,0 +1,21 @@
+export type Candle = {time: number; open: number; high: number; low: number; close: number; volume: number};
+export type Driver = {feature: string; contribution: number};
+export type Signal = {id?: string; symbol: string; action: "BUY"|"SELL"|"HOLD"; status: string; confidence: number|null; price: number|null; decision_time?: number; generated_at?: number; expires_at?: number; target_exposure?: number; suggested_size_pct?: number; stop_loss?: number|null; take_profit?: number|null; risk_reward?: number|null; regime?: string; model_version?: string|null; reasons: string[]; risk_overrides: string[]; drivers: Driver[]; driver_basis?: string; probabilities?: {up: number; down: number; flat: number}|null; news?: {score:number|null;count:number;status:string}; return_quantiles?: {p10:number;p50:number;p90:number}};
+export type Health = {status:string;error:string|null;market:{connected:boolean;book_valid:boolean;age_seconds:number|null;spread_bps?:number;imbalance?:number}; mode:string; model:string|null; model_approved:boolean; drift:{alerts?:string[];feature_psi?:Record<string,number>}; learning:{count:number;accuracy:number|null;brier:number|null;failure_patterns:Record<string,number>;status:string};incidents:{at:string;reason:string}[]};
+export type News = {id:string;title:string;url:string;source:string;published_at:number|null;observed_at:number;sentiment:number|null;tags:string[]};
+export type Curve = {time:number;equity:number;drawdown:number};
+export type Metrics = {total_return:number;cagr:number;sharpe:number;sortino:number|null;max_drawdown:number;calmar:number|null;trade_count:number;win_rate:number|null;profit_factor:number|null;exposure:number;turnover:number};
+export type Result = {metrics:Metrics;curve:Curve[];regimes:Record<string,Partial<Metrics>>};
+export type Backtest = {status?:string;version?:string;approved?:boolean;rows?:number;promotion_failures?:string[];candidate?:Result;baselines?:Record<string,Result>;calibration?:{log_loss:number;multiclass_brier:number};scope?:string;holdout_first?:number;holdout_last?:number;cost_sensitivity?:Partial<Metrics>[]};
+export type Paper = {cash:number;units:number;equity:number;daily_return:number;drawdown:number;mode:string;simulation:string;trades:{time:number;side:string;price:number;units:number;reason:string}[];curve:{equity:number;last_bar:number}[]};
+export type OrderFlowWindow = {buy_notional_usdt:number;sell_notional_usdt:number;net_taker_delta_usdt:number;imbalance:number|null;aggregate_trade_count:number};
+export type OrderFlowTrade = {aggregate_id:number;time:number;price:number;quantity:number;notional_usdt:number;side:"BUY"|"SELL";buyer_is_maker:boolean;underlying_trade_count:number;relative_large:boolean};
+export type OrderFlowDepthBucket = {distance_bps:number;bid_band_low:number;bid_band_high:number;ask_band_low:number;ask_band_high:number;bid_notional_usdt:number;ask_notional_usdt:number};
+export type OrderFlowSnapshot = {
+  generated_at:number;symbol:string;venue:string;connected:boolean;feed_age_seconds:number|null;
+  book:{book_valid?:boolean;spread_bps?:number;imbalance?:number;depth_usdt?:number;mid?:number;bid?:number;ask?:number;microprice?:number;microprice_offset_bps?:number;top_of_book_imbalance?:number;best_bid_size?:number;best_ask_size?:number;sequence_id?:number};
+  depth_map:{status:string;range_bps:number;bucket_bps:number;basis:string;buckets:OrderFlowDepthBucket[]};
+  flow_windows:Record<"1m"|"5m"|"15m",OrderFlowWindow>;
+  large_print_threshold_usdt:number|null;large_print_basis:string;large_print_sample_count:number;identity_basis:string;
+  recent_trades:OrderFlowTrade[];
+};
