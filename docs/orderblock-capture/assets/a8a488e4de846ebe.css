@@ -1,0 +1,35 @@
+/* Order Block shell around the terminal frame. Light is the base and dark overrides follow the app
+   theme (as in ui.css); the dark values match the terminal (02.html) so the frame never shows a seam.
+   The tokens sit on the page body so the phone bar above the frame (layout.html .obbar) uses them too. */
+body.flush { --ob-bg: #F4F6F9; --ob-ink: #0B1220; --ob-ink-2: #434F63; --ob-glow: rgba(14, 159, 99, .07); --ob-green: #0E9F63; --ob-green-soft: rgba(14, 159, 99, .12);
+  --ob-glass: rgba(255, 255, 255, .88); --ob-line: #DCE2EB; --ob-amber: #D98A06; --ob-amber-soft: rgba(217, 138, 6, .16); }
+:root[data-theme=dark] body.flush { --ob-bg: #04060A; --ob-ink: #EEF3FA; --ob-ink-2: #9AA8BD; --ob-glow: rgba(25, 229, 140, .06); --ob-green: #19E58C; --ob-green-soft: rgba(25, 229, 140, .12);
+  --ob-glass: rgba(10, 15, 23, .85); --ob-line: #1A2433; --ob-amber: #FFB020; --ob-amber-soft: rgba(255, 176, 32, .15); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme=light]) body.flush { --ob-bg: #04060A; --ob-ink: #EEF3FA; --ob-ink-2: #9AA8BD; --ob-glow: rgba(25, 229, 140, .06); --ob-green: #19E58C; --ob-green-soft: rgba(25, 229, 140, .12);
+    --ob-glass: rgba(10, 15, 23, .85); --ob-line: #1A2433; --ob-amber: #FFB020; --ob-amber-soft: rgba(255, 176, 32, .15); }
+}
+/* the frame can't read the safe-area insets (env() is 0 inside an iframe), so the shell keeps it clear of them */
+.terminal { position: relative; height: 100%; background: var(--ob-bg);
+  padding: 0 env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px); }
+.terminal iframe { border: 0; width: 100%; height: 100%; display: block; }
+@media (min-width: 901px) { .terminal { padding-left: 0; } }   /* beside the menu rail, which takes the left inset itself */
+.ob-wait { position: absolute; inset: 0; display: grid; place-items: center; background: radial-gradient(60% 50% at 50% 40%, var(--ob-glow), transparent 70%), var(--ob-bg); }
+.ob-wait-card { display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center; color: var(--ob-ink); max-width: 420px; padding: 24px; }
+.ob-wait-card h2 { font-size: 22px; letter-spacing: -.03em; }
+.ob-wait-card p { color: var(--ob-ink-2); font-size: 14px; }
+.ob-wait .ibadge { --cb: var(--ob-green-soft); --c: var(--ob-green); }
+.ob-count { font-size: 34px; font-weight: 600; letter-spacing: -.04em; color: var(--ob-ink); margin-top: 6px; }
+.ob-status { position: absolute; right: 16px; bottom: 14px; display: inline-flex; align-items: center; gap: 7px; height: 26px; padding: 0 10px; border-radius: 99px;
+  background: var(--ob-glass); color: var(--ob-ink-2); font: 600 11px var(--font-ui); letter-spacing: .02em; backdrop-filter: blur(8px); border: 1px solid var(--ob-line); }
+.ob-status .dot { background: var(--ob-amber); box-shadow: 0 0 0 3px var(--ob-amber-soft); }
+/* phones: the frame fills the column under the bar; the status note becomes a slim strip above it
+   instead of floating over the frame's bottom sheet */
+@media (max-width: 900px) {
+  .terminal { display: flex; flex-direction: column; }
+  .terminal iframe { flex: 1; min-height: 0; height: auto; }
+  .ob-status { position: relative; z-index: 1; order: -1; flex: none; right: auto; bottom: auto; justify-content: center; height: 28px; padding: 0 14px;
+    border: 0; border-bottom: 1px solid var(--ob-line); border-radius: 0; backdrop-filter: none;
+    background: linear-gradient(var(--ob-amber-soft), var(--ob-amber-soft)), var(--ob-bg); color: var(--ob-ink); }
+  .ob-status #obStatusText { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+}

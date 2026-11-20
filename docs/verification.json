@@ -1,0 +1,126 @@
+{
+  "verified_at_utc": "2026-10-08T14:44:09.566494+05:30",
+  "backend": {
+    "pytest_passed": 37,
+    "ruff": "passed",
+    "mypy": "passed: 32 source files"
+  },
+  "frontend": {
+    "typecheck": "passed",
+    "production_build": "passed",
+    "browser": "overview, backtests, health, paper; desktop and narrow viewport verified"
+  },
+  "data": {
+    "archive_months": 74,
+    "missing_archive_months": [],
+    "minute_rows": 3237305,
+    "malformed_records_quarantined": 3,
+    "intervals": [
+      "1m",
+      "5m",
+      "15m",
+      "1h",
+      "4h",
+      "1d"
+    ]
+  },
+  "candidate": {
+    "version": "20261008T090625Z-b63e3de7",
+    "rows": 53372,
+    "approved": false,
+    "promotion_failures": [
+      "insufficient holdout trades",
+      "nonpositive holdout return after costs",
+      "insufficient consistent walk-forward performance"
+    ]
+  },
+  "experiments": {
+    "tcn": "3 CUDA epochs; uncalibrated; excluded",
+    "rl": "PPO and SAC, 3 seeds each, 1024 training steps; negative evaluation returns; excluded"
+  },
+  "runtime": {
+    "health": {
+      "status": "ready",
+      "error": null,
+      "market": {
+        "connected": true,
+        "age_seconds": 0.07690834999084473,
+        "book_valid": true,
+        "spread_bps": 0.8685456203591537,
+        "imbalance": 0.25607633946858777,
+        "depth_usdt": 4604811.703600001,
+        "trade_flow_imbalance": -0.7001552534297255
+      },
+      "candle_count": 1000,
+      "last_fetch": 1791450848.3755534,
+      "mode": "signals",
+      "live_execution": "locked",
+      "model": "20261008T090625Z-b63e3de7",
+      "model_approved": false,
+      "drift": {
+        "feature_psi": {
+          "return_1": 0.6593809959686643,
+          "return_4": 0.6056189717457762,
+          "return_12": 1.5892994285905317,
+          "return_24": 2.193850356367692,
+          "rsi": 0.0955867256551999,
+          "macd": 2.3088452769122556,
+          "roc": 1.5892994285905317,
+          "donchian": 0.12288266447307168,
+          "adx": 0.24256043686836162,
+          "momentum": 4.233368848344229,
+          "realized_vol": 5.252101339379484,
+          "atr_fraction": 7.012355189963692,
+          "parkinson": 6.096635937072163,
+          "garman_klass": 6.7097077670455825,
+          "vol_of_vol": 2.1390948998147516,
+          "volume_z": 0.04500032417105719,
+          "price_z": 0.23061991419352107,
+          "autocorrelation": 0.17741833769785262,
+          "vwap_deviation": 1.5740277220564247,
+          "regime_trend": 1.0,
+          "regime_crash": 1.0
+        },
+        "alerts": [
+          "return_1",
+          "return_4",
+          "return_12",
+          "return_24",
+          "macd",
+          "roc",
+          "momentum",
+          "realized_vol",
+          "atr_fraction",
+          "parkinson",
+          "garman_klass",
+          "vol_of_vol",
+          "vwap_deviation",
+          "regime_trend",
+          "regime_crash"
+        ],
+        "threshold": 0.25,
+        "reference_rows": 5000,
+        "current_rows": 168,
+        "interpretation": "Distribution shift warrants review; it does not prove loss of edge"
+      },
+      "learning": {
+        "count": 0,
+        "accuracy": null,
+        "brier": null,
+        "failure_patterns": {},
+        "status": "waiting for completed prediction horizons"
+      },
+      "incidents": []
+    },
+    "signal_action": "HOLD",
+    "candle_payload_type": "list",
+    "signal_status": "research_only",
+    "risk_view_recovery": "verified after reconnect"
+  },
+  "limits": [
+    "Docker not available; compose not executed",
+    "No proven profitable model",
+    "Live execution adapter not implemented; locked",
+    "Prospective paper validation and full independent experiment campaigns remain"
+  ]
+}

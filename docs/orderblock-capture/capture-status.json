@@ -1,0 +1,15 @@
+{
+  "target": "https://order-block.com/app/orderblock",
+  "scope": "Accessible terminal guest sample only",
+  "frontendDraft": "http://127.0.0.1:3010/market-flow",
+  "pixelPerfect": false,
+  "pixelDiffPercent": null,
+  "lighthouse": null,
+  "sourceAccess": "Page-source protocol rejected by browser policy; no workaround attempted",
+  "notes": [
+    "Canvas draw calls and full time-series data not acquired",
+    "Guest blur preserved",
+    "Per-width screenshots require matched-state recapture before fidelity scoring",
+    "The authored draft is an adaptation, not a 1:1 clone"
+  ]
+}

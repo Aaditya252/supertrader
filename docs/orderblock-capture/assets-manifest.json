@@ -1,0 +1,237 @@
+{
+  "assets": [
+    {
+      "contentType": "text/css",
+      "id": "80d08216f2ccf821",
+      "kind": "stylesheet",
+      "name": "css2",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/80d08216f2ccf821",
+      "url": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    },
+    {
+      "contentType": "text/css",
+      "id": "eccc2daf65d47778",
+      "kind": "stylesheet",
+      "name": "ui.css",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/eccc2daf65d47778.css",
+      "url": "https://order-block.com/static/css/ui.css?v=4900f25d22"
+    },
+    {
+      "contentType": "text/css",
+      "id": "075b0d8a0c9567a1",
+      "kind": "stylesheet",
+      "name": "app.css",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/075b0d8a0c9567a1.css",
+      "url": "https://order-block.com/static/css/app.css?v=6248e3275b"
+    },
+    {
+      "contentType": "text/css",
+      "id": "a8a488e4de846ebe",
+      "kind": "stylesheet",
+      "name": "orderblock.css",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/a8a488e4de846ebe.css",
+      "url": "https://order-block.com/static/css/pages/orderblock.css?v=0986a420cb"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "dadde9c4a14c485b",
+      "kind": "image",
+      "name": "a08.svg",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/dadde9c4a14c485b.svg",
+      "url": "https://order-block.com/static/avatars/a08.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "956cb278552d6d9b",
+      "kind": "image",
+      "name": "svg-1",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/956cb278552d6d9b.svg",
+      "url": "inline-svg:956cb278552d6d9b"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "00790caa83b6360e",
+      "kind": "image",
+      "name": "svg-2",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/00790caa83b6360e.svg",
+      "url": "inline-svg:00790caa83b6360e"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "f80feb218658583e",
+      "kind": "image",
+      "name": "svg-3",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/f80feb218658583e.svg",
+      "url": "inline-svg:f80feb218658583e"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "9e551fc218723ccd",
+      "kind": "image",
+      "name": "svg-4",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/9e551fc218723ccd.svg",
+      "url": "inline-svg:9e551fc218723ccd"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "4e289b6719001724",
+      "kind": "image",
+      "name": "svg-5",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/4e289b6719001724.svg",
+      "url": "inline-svg:4e289b6719001724"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "b3065dc9d069f521",
+      "kind": "image",
+      "name": "svg-6",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/b3065dc9d069f521.svg",
+      "url": "inline-svg:b3065dc9d069f521"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "6fd39243c600b6c9",
+      "kind": "image",
+      "name": "svg-7",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/6fd39243c600b6c9.svg",
+      "url": "inline-svg:6fd39243c600b6c9"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "1eeb4b938a0e864c",
+      "kind": "image",
+      "name": "svg-8",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/1eeb4b938a0e864c.svg",
+      "url": "inline-svg:1eeb4b938a0e864c"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "94e400b87d784a39",
+      "kind": "image",
+      "name": "svg-9",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/94e400b87d784a39.svg",
+      "url": "inline-svg:94e400b87d784a39"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "7a45a8ac5f1e3555",
+      "kind": "image",
+      "name": "svg-10",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/7a45a8ac5f1e3555.svg",
+      "url": "inline-svg:7a45a8ac5f1e3555"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "9425f2bbeb5e5f2a",
+      "kind": "image",
+      "name": "svg-11",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/9425f2bbeb5e5f2a.svg",
+      "url": "inline-svg:9425f2bbeb5e5f2a"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "1bfaa8fac83096b8",
+      "kind": "image",
+      "name": "svg-12",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/1bfaa8fac83096b8.svg",
+      "url": "inline-svg:1bfaa8fac83096b8"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "55109f7c32ae7827",
+      "kind": "image",
+      "name": "svg-13",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/55109f7c32ae7827.svg",
+      "url": "inline-svg:55109f7c32ae7827"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "93bc692708837a48",
+      "kind": "image",
+      "name": "svg-14",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/93bc692708837a48.svg",
+      "url": "inline-svg:93bc692708837a48"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "9e0d451ba35f2a67",
+      "kind": "image",
+      "name": "svg-15",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/9e0d451ba35f2a67.svg",
+      "url": "inline-svg:9e0d451ba35f2a67"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "1f3e024f010fe96c",
+      "kind": "image",
+      "name": "svg-16",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/1f3e024f010fe96c.svg",
+      "url": "inline-svg:1f3e024f010fe96c"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "bd58cbea6e175d71",
+      "kind": "image",
+      "name": "svg-17",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/bd58cbea6e175d71.svg",
+      "url": "inline-svg:bd58cbea6e175d71"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "d56f7d30b69eeaaf",
+      "kind": "image",
+      "name": "svg-18",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/d56f7d30b69eeaaf.svg",
+      "url": "inline-svg:d56f7d30b69eeaaf"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "ba746aa7a4c89179",
+      "kind": "image",
+      "name": "svg-19",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/ba746aa7a4c89179.svg",
+      "url": "inline-svg:ba746aa7a4c89179"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "2101f1b54b4ef68e",
+      "kind": "image",
+      "name": "svg-20",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/2101f1b54b4ef68e.svg",
+      "url": "inline-svg:2101f1b54b4ef68e"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "a81b959723e6ab5f",
+      "kind": "image",
+      "name": "svg-21",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/a81b959723e6ab5f.svg",
+      "url": "inline-svg:a81b959723e6ab5f"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "ab2a3dc33e68e0ea",
+      "kind": "image",
+      "name": "svg-22",
+      "path": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/ab2a3dc33e68e0ea.svg",
+      "url": "inline-svg:ab2a3dc33e68e0ea"
+    }
+  ],
+  "directoryPath": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906",
+  "failures": [
+    {
+      "contentType": null,
+      "id": "ef6792871b629016",
+      "name": "icons.svg#logo",
+      "reason": "Asset response type missing is not valid for image",
+      "url": "https://order-block.com/static/icons.svg?v=9cc59b01ae#logo"
+    }
+  ],
+  "manifestPath": "C:\\Users\\adive\\AppData\\Local\\Packages\\sandbox.{13c042df-e649-4fc8-ba0b-0cb508e5dc42}\\AC\\Temp/browser-use/assets/195f6598-9b7e-4fbb-9437-5af118a61906/manifest.json",
+  "summary": {
+    "downloadedCount": 27,
+    "elapsedMs": 8319.552599999995,
+    "failedCount": 1,
+    "requestedCount": 28
+  }
+}

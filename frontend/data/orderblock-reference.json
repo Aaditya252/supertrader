@@ -1,0 +1,1686 @@
+{
+  "mode": "captured_guest_sample",
+  "source": "Visible stock-search options",
+  "stocks": [
+    {
+      "symbol": "VALUGA",
+      "name": "Valuga Metals",
+      "sector": "METAL",
+      "changePercent": 5.09,
+      "category": "BULLISH",
+      "rank": 1
+    },
+    {
+      "symbol": "ORAR",
+      "name": "Orar Consumer",
+      "sector": "FMCG",
+      "changePercent": 4.59,
+      "category": "BULLISH",
+      "rank": 2
+    },
+    {
+      "symbol": "GAUM",
+      "name": "Gaum Bank",
+      "sector": "BANK",
+      "changePercent": 3.85,
+      "category": "BULLISH",
+      "rank": 3
+    },
+    {
+      "symbol": "VARIVHEL",
+      "name": "Varivhel Motors",
+      "sector": "AUTO",
+      "changePercent": 3.82,
+      "category": "CONTENDER",
+      "rank": 4
+    },
+    {
+      "symbol": "HELLUGA",
+      "name": "Helluga Energy",
+      "sector": "OIL & GAS",
+      "changePercent": 3.79,
+      "category": "CONTENDER",
+      "rank": 5
+    },
+    {
+      "symbol": "KAIZENCO",
+      "name": "Kaizenco Bank",
+      "sector": "BANK",
+      "changePercent": 3.54,
+      "category": "CONTENDER",
+      "rank": 6
+    },
+    {
+      "symbol": "XOQUAZEN",
+      "name": "Xoquazen Bank",
+      "sector": "BANK",
+      "changePercent": 3.37,
+      "category": "CONTENDER",
+      "rank": 7
+    },
+    {
+      "symbol": "PRAQUAZEN",
+      "name": "Praquazen Defence",
+      "sector": "DEFENCE",
+      "changePercent": 3.23,
+      "category": "CONTENDER",
+      "rank": 8
+    },
+    {
+      "symbol": "PRARIV",
+      "name": "Prariv Motors",
+      "sector": "AUTO",
+      "changePercent": 3.09,
+      "category": "CONTENDER",
+      "rank": 9
+    },
+    {
+      "symbol": "ARRIVUM",
+      "name": "Arrivum Bank",
+      "sector": "BANK",
+      "changePercent": 3.01,
+      "category": "CONTENDER",
+      "rank": 10
+    },
+    {
+      "symbol": "SOLKAI",
+      "name": "Solkai Telecom",
+      "sector": "TELECOM",
+      "changePercent": 2.86,
+      "category": "CONTENDER",
+      "rank": 11
+    },
+    {
+      "symbol": "SOLHELBEX",
+      "name": "Solhelbex Metals",
+      "sector": "METAL",
+      "changePercent": 2.73,
+      "category": "CONTENDER",
+      "rank": 12
+    },
+    {
+      "symbol": "GANEO",
+      "name": "Ganeo Consumer",
+      "sector": "FMCG",
+      "changePercent": 2.67,
+      "category": "CONTENDER",
+      "rank": 13
+    },
+    {
+      "symbol": "XOVAEL",
+      "name": "Xovael Power",
+      "sector": "POWER",
+      "changePercent": 2.6,
+      "category": "CONTENDER",
+      "rank": 14
+    },
+    {
+      "symbol": "NEOWEN",
+      "name": "Neowen Metals",
+      "sector": "METAL",
+      "changePercent": 2.45,
+      "category": "CONTENDER",
+      "rank": 15
+    },
+    {
+      "symbol": "ARKAIJO",
+      "name": "Arkaijo Technologies",
+      "sector": "IT",
+      "changePercent": 2.43,
+      "category": "CONTENDER",
+      "rank": 16
+    },
+    {
+      "symbol": "GAMOR",
+      "name": "Gamor Technologies",
+      "sector": "IT",
+      "changePercent": 2.37,
+      "category": "CONTENDER",
+      "rank": 17
+    },
+    {
+      "symbol": "GAKAIHEL",
+      "name": "Gakaihel Power",
+      "sector": "POWER",
+      "changePercent": 2.35,
+      "category": "CONTENDER",
+      "rank": 18
+    },
+    {
+      "symbol": "BEXOR",
+      "name": "Bexor Metals",
+      "sector": "METAL",
+      "changePercent": 2.3,
+      "category": "CONTENDER",
+      "rank": 19
+    },
+    {
+      "symbol": "WENUM",
+      "name": "Wenum Chemicals",
+      "sector": "CHEM",
+      "changePercent": 2.25,
+      "category": "CONTENDER",
+      "rank": 20
+    },
+    {
+      "symbol": "PRASOL",
+      "name": "Prasol Technologies",
+      "sector": "IT",
+      "changePercent": 2.06,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRAIXUM",
+      "name": "Draixum Consumer",
+      "sector": "FMCG",
+      "changePercent": 1.98,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "JOVAXO",
+      "name": "Jovaxo Power",
+      "sector": "POWER",
+      "changePercent": 1.82,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "YAQUA",
+      "name": "Yaqua Motors",
+      "sector": "AUTO",
+      "changePercent": 1.81,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "SOLCOAR",
+      "name": "Solcoar Technologies",
+      "sector": "IT",
+      "changePercent": 1.76,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "GAQUA",
+      "name": "Gaqua Chemicals",
+      "sector": "CHEM",
+      "changePercent": 1.72,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRAVA",
+      "name": "Drava Bank",
+      "sector": "BANK",
+      "changePercent": 1.65,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "LUWEN",
+      "name": "Luwen Consumer",
+      "sector": "FMCG",
+      "changePercent": 1.57,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "GAPRA",
+      "name": "Gapra Power",
+      "sector": "POWER",
+      "changePercent": 1.57,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "GAIX",
+      "name": "Gaix Retail",
+      "sector": "CONSUMER",
+      "changePercent": 1.57,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ZENORCO",
+      "name": "Zenorco Finance",
+      "sector": "NBFC",
+      "changePercent": 1.56,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "XOGAHEL",
+      "name": "Xogahel Finance",
+      "sector": "NBFC",
+      "changePercent": 1.5,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "LUMORRIV",
+      "name": "Lumorriv Bank",
+      "sector": "BANK",
+      "changePercent": 1.49,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "BEXJO",
+      "name": "Bexjo Metals",
+      "sector": "METAL",
+      "changePercent": 1.48,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVBEX",
+      "name": "Rivbex Consumer",
+      "sector": "FMCG",
+      "changePercent": 1.42,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "XOPRAJO",
+      "name": "Xoprajo Power",
+      "sector": "POWER",
+      "changePercent": 1.4,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRAPRAIX",
+      "name": "Drapraix Insurance",
+      "sector": "INSURANCE",
+      "changePercent": 1.39,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "VAZEN",
+      "name": "Vazen Bank",
+      "sector": "BANK",
+      "changePercent": 1.39,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "QUAIX",
+      "name": "Quaix Energy",
+      "sector": "OIL & GAS",
+      "changePercent": 1.37,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "BEXAR",
+      "name": "Bexar Technologies",
+      "sector": "IT",
+      "changePercent": 1.37,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ORTERGA",
+      "name": "Orterga Metals",
+      "sector": "METAL",
+      "changePercent": 1.37,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "NEOXOCO",
+      "name": "Neoxoco Motors",
+      "sector": "AUTO",
+      "changePercent": 1.36,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "SOLRIV",
+      "name": "Solriv Technologies",
+      "sector": "IT",
+      "changePercent": 1.34,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "XOXOUM",
+      "name": "Xoxoum Technologies",
+      "sector": "IT",
+      "changePercent": 1.34,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVUM",
+      "name": "Rivum Bank",
+      "sector": "BANK",
+      "changePercent": 1.28,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "PRAARCO",
+      "name": "Praarco Defence",
+      "sector": "DEFENCE",
+      "changePercent": 1.26,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "SOLSOL",
+      "name": "Solsol Energy",
+      "sector": "OIL & GAS",
+      "changePercent": 1.25,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "KAICOUM",
+      "name": "Kaicoum Power",
+      "sector": "POWER",
+      "changePercent": 1.15,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVPRAZEN",
+      "name": "Rivprazen Consumer",
+      "sector": "FMCG",
+      "changePercent": 1.13,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "JOZENHEL",
+      "name": "Jozenhel Power",
+      "sector": "POWER",
+      "changePercent": 1.12,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ORELBEX",
+      "name": "Orelbex Metals",
+      "sector": "METAL",
+      "changePercent": 1.09,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRAJO",
+      "name": "Drajo Defence",
+      "sector": "DEFENCE",
+      "changePercent": 1.09,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "YANEOHEL",
+      "name": "Yaneohel Bank",
+      "sector": "BANK",
+      "changePercent": 1.07,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "GAELYA",
+      "name": "Gaelya Cement",
+      "sector": "CEMENT",
+      "changePercent": 1.06,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRAMORPRA",
+      "name": "Dramorpra Pharma",
+      "sector": "PHARMA",
+      "changePercent": 1.06,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "FINRIV",
+      "name": "Finriv Motors",
+      "sector": "AUTO",
+      "changePercent": 1.01,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRAIXRIV",
+      "name": "Draixriv Motors",
+      "sector": "AUTO",
+      "changePercent": 0.97,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "MORTERMOR",
+      "name": "Mortermor Motors",
+      "sector": "AUTO",
+      "changePercent": 0.96,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "GACO",
+      "name": "Gaco Bank",
+      "sector": "BANK",
+      "changePercent": 0.94,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "VASOLPRA",
+      "name": "Vasolpra Finance",
+      "sector": "NBFC",
+      "changePercent": 0.94,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ARRIVNEO",
+      "name": "Arrivneo Finance",
+      "sector": "NBFC",
+      "changePercent": 0.94,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "QUAPRAAR",
+      "name": "Quapraar Pharma",
+      "sector": "PHARMA",
+      "changePercent": 0.93,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "WENARIX",
+      "name": "Wenarix Metals",
+      "sector": "METAL",
+      "changePercent": 0.93,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "PRACO",
+      "name": "Praco Telecom",
+      "sector": "TELECOM",
+      "changePercent": 0.91,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ZENHEL",
+      "name": "Zenhel Motors",
+      "sector": "AUTO",
+      "changePercent": 0.9,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "LURIVNEO",
+      "name": "Lurivneo Motors",
+      "sector": "AUTO",
+      "changePercent": 0.88,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "HELFIN",
+      "name": "Helfin Energy",
+      "sector": "OIL & GAS",
+      "changePercent": 0.86,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "QUAHELJO",
+      "name": "Quaheljo Defence",
+      "sector": "DEFENCE",
+      "changePercent": 0.85,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRAXOIX",
+      "name": "Draxoix Energy",
+      "sector": "OIL & GAS",
+      "changePercent": 0.84,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "PRATERGA",
+      "name": "Praterga Motors",
+      "sector": "AUTO",
+      "changePercent": 0.82,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "IXDRA",
+      "name": "Ixdra Finance",
+      "sector": "NBFC",
+      "changePercent": 0.81,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ARQUA",
+      "name": "Arqua Pharma",
+      "sector": "PHARMA",
+      "changePercent": 0.81,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "BEXKAIVA",
+      "name": "Bexkaiva Pharma",
+      "sector": "PHARMA",
+      "changePercent": 0.78,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "JOOREL",
+      "name": "Joorel Metals",
+      "sector": "METAL",
+      "changePercent": 0.75,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "XOUM",
+      "name": "Xoum Consumer",
+      "sector": "FMCG",
+      "changePercent": 0.74,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "XOSOL",
+      "name": "Xosol Retail",
+      "sector": "CONSUMER",
+      "changePercent": 0.73,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "KAINEO",
+      "name": "Kaineo Telecom",
+      "sector": "TELECOM",
+      "changePercent": 0.73,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "MORWEN",
+      "name": "Morwen Insurance",
+      "sector": "INSURANCE",
+      "changePercent": 0.72,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "YAAR",
+      "name": "Yaar Finance",
+      "sector": "NBFC",
+      "changePercent": 0.72,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "YAWEN",
+      "name": "Yawen Power",
+      "sector": "POWER",
+      "changePercent": 0.72,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ARKAIZEN",
+      "name": "Arkaizen Metals",
+      "sector": "METAL",
+      "changePercent": 0.69,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "SOLPRARIV",
+      "name": "Solprariv Retail",
+      "sector": "CONSUMER",
+      "changePercent": -0.67,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "JOHELKAI",
+      "name": "Johelkai Pharma",
+      "sector": "PHARMA",
+      "changePercent": 0.66,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "MORIX",
+      "name": "Morix Finance",
+      "sector": "NBFC",
+      "changePercent": 0.64,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ORLUMOR",
+      "name": "Orlumor Power",
+      "sector": "POWER",
+      "changePercent": 0.62,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ELSOLSOL",
+      "name": "Elsolsol Defence",
+      "sector": "DEFENCE",
+      "changePercent": 0.62,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "KAIXODRA",
+      "name": "Kaixodra Consumer",
+      "sector": "FMCG",
+      "changePercent": 0.61,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "GAEL",
+      "name": "Gael Energy",
+      "sector": "OIL & GAS",
+      "changePercent": 0.61,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "QUARIV",
+      "name": "Quariv Metals",
+      "sector": "METAL",
+      "changePercent": 0.61,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "UMHEL",
+      "name": "Umhel Finance",
+      "sector": "NBFC",
+      "changePercent": 0.6,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRACO",
+      "name": "Draco Realty",
+      "sector": "REALTY",
+      "changePercent": 0.56,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "SOLFINMOR",
+      "name": "Solfinmor Realty",
+      "sector": "REALTY",
+      "changePercent": 0.55,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "SOLXOZEN",
+      "name": "Solxozen Realty",
+      "sector": "REALTY",
+      "changePercent": 0.55,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "IXFIN",
+      "name": "Ixfin Finance",
+      "sector": "NBFC",
+      "changePercent": 0.54,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "XOXODRA",
+      "name": "Xoxodra Pharma",
+      "sector": "PHARMA",
+      "changePercent": 0.53,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "NEOTER",
+      "name": "Neoter Retail",
+      "sector": "CONSUMER",
+      "changePercent": 0.52,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "OROR",
+      "name": "Oror Motors",
+      "sector": "AUTO",
+      "changePercent": 0.52,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "MORJO",
+      "name": "Morjo Technologies",
+      "sector": "IT",
+      "changePercent": 0.51,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ORTERBEX",
+      "name": "Orterbex Power",
+      "sector": "POWER",
+      "changePercent": 0.44,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVRIVSOL",
+      "name": "Rivrivsol Motors",
+      "sector": "AUTO",
+      "changePercent": 0.43,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "WENMOR",
+      "name": "Wenmor Insurance",
+      "sector": "INSURANCE",
+      "changePercent": 0.41,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "UMAR",
+      "name": "Umar Technologies",
+      "sector": "IT",
+      "changePercent": 0.34,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "WENQUA",
+      "name": "Wenqua Realty",
+      "sector": "REALTY",
+      "changePercent": 0.31,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVAR",
+      "name": "Rivar Pharma",
+      "sector": "PHARMA",
+      "changePercent": 0.3,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVTER",
+      "name": "Rivter Capital",
+      "sector": "CAP MKTS",
+      "changePercent": 0.3,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "NEOORMOR",
+      "name": "Neoormor Technologies",
+      "sector": "IT",
+      "changePercent": 0.29,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "XOUMTER",
+      "name": "Xoumter Pharma",
+      "sector": "PHARMA",
+      "changePercent": 0.26,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "QUAWENZEN",
+      "name": "Quawenzen Energy",
+      "sector": "OIL & GAS",
+      "changePercent": 0.24,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "LUDRAJO",
+      "name": "Ludrajo Cement",
+      "sector": "CEMENT",
+      "changePercent": 0.24,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ARHELUM",
+      "name": "Arhelum Retail",
+      "sector": "CONSUMER",
+      "changePercent": 0.23,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "BEXCO",
+      "name": "Bexco Retail",
+      "sector": "CONSUMER",
+      "changePercent": -0.14,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "TERCO",
+      "name": "Terco Retail",
+      "sector": "CONSUMER",
+      "changePercent": 0.13,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ORLU",
+      "name": "Orlu Technologies",
+      "sector": "IT",
+      "changePercent": -0.11,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ORWENEL",
+      "name": "Orwenel Finance",
+      "sector": "NBFC",
+      "changePercent": 0.08,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "TERBEXSOL",
+      "name": "Terbexsol Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": 0.08,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "JOOR",
+      "name": "Joor Energy",
+      "sector": "OIL & GAS",
+      "changePercent": 0.08,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "CORIV",
+      "name": "Coriv Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": 0.06,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "PRAHEL",
+      "name": "Prahel Technologies",
+      "sector": "IT",
+      "changePercent": 0.05,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ZENSOL",
+      "name": "Zensol Technologies",
+      "sector": "IT",
+      "changePercent": -0.04,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "IXIXLU",
+      "name": "Ixixlu Consumer",
+      "sector": "FMCG",
+      "changePercent": -0.03,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "QUATERLU",
+      "name": "Quaterlu Motors",
+      "sector": "AUTO",
+      "changePercent": -0.02,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ZENQUA",
+      "name": "Zenqua Insurance",
+      "sector": "INSURANCE",
+      "changePercent": -0.03,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "FINXO",
+      "name": "Finxo Capital",
+      "sector": "CAP MKTS",
+      "changePercent": -0.03,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "HELBEXNEO",
+      "name": "Helbexneo Motors",
+      "sector": "AUTO",
+      "changePercent": 0.04,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRAXO",
+      "name": "Draxo Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -0.06,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "SOLAR",
+      "name": "Solar Metals",
+      "sector": "METAL",
+      "changePercent": 0.07,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "PRAQUABEX",
+      "name": "Praquabex Cement",
+      "sector": "CEMENT",
+      "changePercent": -0.09,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ZENTERUM",
+      "name": "Zenterum Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": 0.12,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "NEOGAJO",
+      "name": "Neogajo Consumer",
+      "sector": "FMCG",
+      "changePercent": 0.14,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ZENVA",
+      "name": "Zenva Finance",
+      "sector": "NBFC",
+      "changePercent": 0.17,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "WENTER",
+      "name": "Wenter Cement",
+      "sector": "CEMENT",
+      "changePercent": -0.19,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "UMWENMOR",
+      "name": "Umwenmor Bank",
+      "sector": "PSU BANK",
+      "changePercent": -0.2,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "KAIKAIUM",
+      "name": "Kaikaium Consumer",
+      "sector": "FMCG",
+      "changePercent": 0.24,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "NEOBEX",
+      "name": "Neobex Retail",
+      "sector": "CONSUMER",
+      "changePercent": -0.25,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "QUACO",
+      "name": "Quaco Finance",
+      "sector": "NBFC",
+      "changePercent": -0.27,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVNEOCO",
+      "name": "Rivneoco Digital",
+      "sector": "NEW-AGE",
+      "changePercent": -0.29,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "TERFINVA",
+      "name": "Terfinva Pharma",
+      "sector": "PHARMA",
+      "changePercent": -0.3,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "UMCOIX",
+      "name": "Umcoix Digital",
+      "sector": "NEW-AGE",
+      "changePercent": 0.34,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "QUAORXO",
+      "name": "Quaorxo Pharma",
+      "sector": "PHARMA",
+      "changePercent": -0.36,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVZENTER",
+      "name": "Rivzenter Realty",
+      "sector": "REALTY",
+      "changePercent": 0.36,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVYA",
+      "name": "Rivya Power",
+      "sector": "POWER",
+      "changePercent": -0.37,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "KAIJO",
+      "name": "Kaijo Motors",
+      "sector": "AUTO",
+      "changePercent": -0.38,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "BEXIXSOL",
+      "name": "Bexixsol Capital",
+      "sector": "CAP MKTS",
+      "changePercent": -0.4,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "JODRAWEN",
+      "name": "Jodrawen Consumer",
+      "sector": "FMCG",
+      "changePercent": 0.42,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRAMOR",
+      "name": "Dramor Retail",
+      "sector": "CONSUMER",
+      "changePercent": -0.44,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "PRATER",
+      "name": "Prater Pharma",
+      "sector": "PHARMA",
+      "changePercent": 0.45,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "UMQUA",
+      "name": "Umqua Consumer",
+      "sector": "FMCG",
+      "changePercent": -0.48,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "WENSOL",
+      "name": "Wensol Finance",
+      "sector": "NBFC",
+      "changePercent": -0.49,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "TERFIN",
+      "name": "Terfin Finance",
+      "sector": "NBFC",
+      "changePercent": -0.49,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "GARIVSOL",
+      "name": "Garivsol Capital",
+      "sector": "CAP MKTS",
+      "changePercent": -0.49,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "COMOR",
+      "name": "Comor Capital",
+      "sector": "CAP MKTS",
+      "changePercent": -0.57,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "IXYA",
+      "name": "Ixya Defence",
+      "sector": "DEFENCE",
+      "changePercent": -0.61,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "TERJOLU",
+      "name": "Terjolu Digital",
+      "sector": "NEW-AGE",
+      "changePercent": -0.62,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "UMVA",
+      "name": "Umva Finance",
+      "sector": "NBFC",
+      "changePercent": -0.62,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "NEORIV",
+      "name": "Neoriv Power",
+      "sector": "POWER",
+      "changePercent": -0.66,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "PRAHELJO",
+      "name": "Praheljo Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -0.67,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "COTER",
+      "name": "Coter Retail",
+      "sector": "CONSUMER",
+      "changePercent": -0.72,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "DRADRABEX",
+      "name": "Dradrabex Chemicals",
+      "sector": "CHEM",
+      "changePercent": -0.75,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "JOQUA",
+      "name": "Joqua Capital",
+      "sector": "CAP MKTS",
+      "changePercent": -0.85,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "FINEL",
+      "name": "Finel Pharma",
+      "sector": "PHARMA",
+      "changePercent": -0.91,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "MORGA",
+      "name": "Morga Bank",
+      "sector": "PSU BANK",
+      "changePercent": -0.94,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "COARFIN",
+      "name": "Coarfin Finance",
+      "sector": "NBFC",
+      "changePercent": -0.98,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "WENDRA",
+      "name": "Wendra Capital",
+      "sector": "CAP MKTS",
+      "changePercent": -1.07,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "TERMORPRA",
+      "name": "Termorpra Pharma",
+      "sector": "PHARMA",
+      "changePercent": -1.07,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVSOL",
+      "name": "Rivsol Motors",
+      "sector": "AUTO",
+      "changePercent": -1.11,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "LUZENNEO",
+      "name": "Luzenneo Retail",
+      "sector": "CONSUMER",
+      "changePercent": -1.14,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "KAIZEN",
+      "name": "Kaizen Retail",
+      "sector": "CONSUMER",
+      "changePercent": -1.15,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "HELPRAGA",
+      "name": "Helpraga Retail",
+      "sector": "CONSUMER",
+      "changePercent": -1.16,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "YAGAHEL",
+      "name": "Yagahel Pharma",
+      "sector": "PHARMA",
+      "changePercent": -1.21,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "YABEX",
+      "name": "Yabex Motors",
+      "sector": "AUTO",
+      "changePercent": -1.28,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "GARIVGA",
+      "name": "Garivga Capital",
+      "sector": "CAP MKTS",
+      "changePercent": -1.32,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "PRAXOPRA",
+      "name": "Praxopra Insurance",
+      "sector": "INSURANCE",
+      "changePercent": -1.35,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "UMDRA",
+      "name": "Umdra Retail",
+      "sector": "CONSUMER",
+      "changePercent": -1.35,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ARUMGA",
+      "name": "Arumga Retail",
+      "sector": "CONSUMER",
+      "changePercent": -1.38,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "JOLU",
+      "name": "Jolu Bank",
+      "sector": "PSU BANK",
+      "changePercent": -1.42,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "TERQUA",
+      "name": "Terqua Capital",
+      "sector": "CAP MKTS",
+      "changePercent": -1.48,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "COWEN",
+      "name": "Cowen Pharma",
+      "sector": "PHARMA",
+      "changePercent": -1.55,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "QUADRA",
+      "name": "Quadra Capital",
+      "sector": "CAP MKTS",
+      "changePercent": -1.56,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "LUTERWEN",
+      "name": "Luterwen Pharma",
+      "sector": "PHARMA",
+      "changePercent": -1.59,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "RIVLU",
+      "name": "Rivlu Retail",
+      "sector": "CONSUMER",
+      "changePercent": -1.64,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "GALUUM",
+      "name": "Galuum Digital",
+      "sector": "NEW-AGE",
+      "changePercent": -1.7,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "KAIIXLU",
+      "name": "Kaiixlu Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -1.7,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "LUOR",
+      "name": "Luor Bank",
+      "sector": "PSU BANK",
+      "changePercent": -1.71,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "IXQUAUM",
+      "name": "Ixquaum Bank",
+      "sector": "PSU BANK",
+      "changePercent": -1.73,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "XOEL",
+      "name": "Xoel Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -1.76,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ZENSOLGA",
+      "name": "Zensolga Bank",
+      "sector": "BANK",
+      "changePercent": -1.86,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "NEOUMUM",
+      "name": "Neoumum Retail",
+      "sector": "CONSUMER",
+      "changePercent": -1.92,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "XOWENTER",
+      "name": "Xowenter Retail",
+      "sector": "CONSUMER",
+      "changePercent": -1.93,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "MORKAIDRA",
+      "name": "Morkaidra Retail",
+      "sector": "CONSUMER",
+      "changePercent": -1.94,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "ORGA",
+      "name": "Orga Capital",
+      "sector": "CAP MKTS",
+      "changePercent": -1.99,
+      "category": "HERD",
+      "rank": null
+    },
+    {
+      "symbol": "YALU",
+      "name": "Yalu Realty",
+      "sector": "REALTY",
+      "changePercent": -2.03,
+      "category": "CONTENDER",
+      "rank": 20
+    },
+    {
+      "symbol": "WENCO",
+      "name": "Wenco Insurance",
+      "sector": "INSURANCE",
+      "changePercent": -2.13,
+      "category": "CONTENDER",
+      "rank": 19
+    },
+    {
+      "symbol": "WENVA",
+      "name": "Wenva Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -2.15,
+      "category": "CONTENDER",
+      "rank": 18
+    },
+    {
+      "symbol": "HELKAI",
+      "name": "Helkai Digital",
+      "sector": "NEW-AGE",
+      "changePercent": -2.17,
+      "category": "CONTENDER",
+      "rank": 17
+    },
+    {
+      "symbol": "ZENGAEL",
+      "name": "Zengael Bank",
+      "sector": "PSU BANK",
+      "changePercent": -2.22,
+      "category": "CONTENDER",
+      "rank": 16
+    },
+    {
+      "symbol": "ORVA",
+      "name": "Orva Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -2.38,
+      "category": "CONTENDER",
+      "rank": 15
+    },
+    {
+      "symbol": "FINBEX",
+      "name": "Finbex Bank",
+      "sector": "PSU BANK",
+      "changePercent": -2.47,
+      "category": "CONTENDER",
+      "rank": 14
+    },
+    {
+      "symbol": "PRAGA",
+      "name": "Praga Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -2.54,
+      "category": "CONTENDER",
+      "rank": 13
+    },
+    {
+      "symbol": "JOXO",
+      "name": "Joxo Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -2.76,
+      "category": "CONTENDER",
+      "rank": 12
+    },
+    {
+      "symbol": "LUYAYA",
+      "name": "Luyaya Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -2.82,
+      "category": "CONTENDER",
+      "rank": 11
+    },
+    {
+      "symbol": "HELJO",
+      "name": "Heljo Logistics",
+      "sector": "LOGISTICS",
+      "changePercent": -2.89,
+      "category": "CONTENDER",
+      "rank": 10
+    },
+    {
+      "symbol": "YAKAIWEN",
+      "name": "Yakaiwen Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -2.98,
+      "category": "CONTENDER",
+      "rank": 9
+    },
+    {
+      "symbol": "SOLCOTER",
+      "name": "Solcoter Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -3.03,
+      "category": "CONTENDER",
+      "rank": 8
+    },
+    {
+      "symbol": "JOIXUM",
+      "name": "Joixum Logistics",
+      "sector": "LOGISTICS",
+      "changePercent": -3.09,
+      "category": "CONTENDER",
+      "rank": 7
+    },
+    {
+      "symbol": "NEONEOCO",
+      "name": "Neoneoco Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -3.16,
+      "category": "CONTENDER",
+      "rank": 6
+    },
+    {
+      "symbol": "NEORIVXO",
+      "name": "Neorivxo Engineering",
+      "sector": "CAP GOODS",
+      "changePercent": -3.38,
+      "category": "CONTENDER",
+      "rank": 5
+    },
+    {
+      "symbol": "QUABEXRIV",
+      "name": "Quabexriv Bank",
+      "sector": "PSU BANK",
+      "changePercent": -3.98,
+      "category": "CONTENDER",
+      "rank": 4
+    },
+    {
+      "symbol": "KAISOLDRA",
+      "name": "Kaisoldra Finance",
+      "sector": "NBFC",
+      "changePercent": -4.38,
+      "category": "BEARISH",
+      "rank": 3
+    },
+    {
+      "symbol": "BEXQUADRA",
+      "name": "Bexquadra Insurance",
+      "sector": "INSURANCE",
+      "changePercent": -4.55,
+      "category": "BEARISH",
+      "rank": 2
+    },
+    {
+      "symbol": "QUALU",
+      "name": "Qualu Digital",
+      "sector": "NEW-AGE",
+      "changePercent": -5.68,
+      "category": "BEARISH",
+      "rank": 1
+    }
+  ]
+}
