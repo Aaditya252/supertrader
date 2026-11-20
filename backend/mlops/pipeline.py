@@ -275,7 +275,7 @@ def _register(settings: Settings, manifest: dict, candidate_dir: Path, candidate
 def _record_run(settings: Settings, manifest: dict) -> None:
     registry_root = settings.artifact_dir / "mlops"
     registry_file = registry_root / "registry.json"
-    registry = json.loads(registry_file.read_text(encoding="utf-8")) if registry_file.exists() else {
+    registry: dict[str, Any] = json.loads(registry_file.read_text(encoding="utf-8")) if registry_file.exists() else {
         "schema_version": 1,
         "runs": [],
     }

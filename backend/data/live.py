@@ -3,6 +3,7 @@ import json
 import logging
 import time
 from collections import deque
+from typing import Any
 import websockets
 from backend.data.history import BinanceREST
 
@@ -84,7 +85,7 @@ class LiveMarket:
     def orderflow_snapshot(self, now_ms: int | None = None) -> dict:
         """Return anonymous, venue-level aggressor flow and the current sequenced L2 book."""
         now_ms = now_ms or int(time.time() * 1000)
-        observations = []
+        observations: list[dict[str, Any]] = []
         oldest_needed = now_ms - 15 * 60_000
         for event in reversed(self.aggregate_events):
             try:
