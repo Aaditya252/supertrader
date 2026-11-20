@@ -10,11 +10,11 @@ __pycache__/
 .env
 .env.*
 !.env.example
-data/
-artifacts/
-mlruns/
-output/
-tmp/
+/data/
+/artifacts/
+/mlruns/
+/output/
+/tmp/
 *.sqlite*
 *.tsbuildinfo
 .test-tmp*/
